@@ -4,7 +4,7 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 // 🔴 TODO: Replace these placeholders with your actual Firebase Project keys
 // You can find these in your Firebase Console -> Project Settings -> General -> "Your apps"
 const firebaseConfig = {
-  apiKey: "AIzaSyCvmd9W5zdt6mEMOgqEnJxwtqzRuM7mNWY",
+  apiKey: "AIzaxxxxxxxx",
   authDomain: "aiintensiveproject.firebaseapp.com",
   projectId: "aiintensiveproject",
   storageBucket: "aiintensiveproject.firebasestorage.app",
