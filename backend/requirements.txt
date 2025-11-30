@@ -1,0 +1,28 @@
+flask
+flask-cors
+python-dotenv
+pypdf
+werkzeug
+# LangChain Ecosystem
+langchain==0.2.16
+langchain-core==0.2.38
+langchain-text-splitters==0.2.4
+langchain-google-genai==1.0.10
+# Vector Database
+chromadb
+# Google AI & Cloud
+google-generativeai
+google-genai
+firebase-admin
+google-cloud-bigquery
+google-cloud-storage
+google-auth
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+# Data Science (Explicitly include numpy for Agent code execution)
+pandas
+numpy
+matplotlib
+# Production Server
+gunicorn

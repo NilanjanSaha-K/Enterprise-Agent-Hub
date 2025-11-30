@@ -1,0 +1,53 @@
+# --- Security / Secrets (NEVER COMMIT THESE) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+client_secret.json
+worker_credentials.json
+service_account.json
+token.json
+credentials.json
+aiintensiveproject-7cf0b9444a27.json
+
+# --- Python (Backend) ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+build/
+dist/
+*.spec
+
+# --- Node.js / React (Frontend) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.eslintcache
+
+# --- Project Specific Data ---
+chroma_db/
+temp_uploads/
+*.pdf
+cookies.txt
+# (Keep requirements.txt! Do not ignore it)
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+
+temp_app_graph_*.png
+.firebase/

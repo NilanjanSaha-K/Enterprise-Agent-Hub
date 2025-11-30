@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Optional: Keep our smooth background preference */
+body {
+  background-color: #f8fafc; /* slate-50 */
+  color: #0f172a; /* slate-900 */
+}
